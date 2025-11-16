@@ -1,0 +1,284 @@
+:root {
+  --dark-blue--: rgb(24, 64, 102);
+  --bitButton: rgb(73,139,188);
+  --ui-font-size: 16px;
+  --font-family: 'Poppins', sans-serif;
+}
+  
+.boton {
+  background-color: var(---dark-blue--);
+  border: none;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.body {
+  background-color: rgb(243, 245, 252);
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+}
+
+.navbarlogo {
+  width: 20%;
+  height: 100px;
+}
+
+.boton1 {
+  background-color: var(--bitButton);
+  border: none;
+}
+
+.boton1:hover {
+  padding: 8px 10px;
+  transform: scale(1.1);
+  transition: ease-in-out 0.23s;
+}
+
+.parahmain {
+  font-size: 50px;
+  color: #052c65;
+}
+
+.botontwo {
+  background-color: var(--bitButton);
+  border: none;
+}
+
+.botontwo:hover {
+  padding: 10px 12px;
+  transform: scale(1.1);
+  transition: ease-in-out 0.23s;
+}
+
+.manimage {
+  border-radius: 10px 150px 150px 10px;
+}
+.xpertbitback {
+  background-image: url(/src/Images/whychooseus.png);
+  background-size: cover;
+}
+.text-justify{
+  font-size: var(--ui-font-size);
+    font-family: 'Poppins', sans-serif;
+  line-height: 1.6;
+}
+
+.cardparah {
+  background-color: #212936;
+}
+
+.backgroundpic {
+  height: 100vh;
+}
+
+.botonfive {
+  background-color: var(--bitButton);
+  border: none;
+}
+
+.botonfive:hover {
+  padding: 10px 12px;
+  transform: scale(1.1);
+  transition: ease-in-out 0.23s;
+}
+
+.service-heading {
+  color: #212936;
+}
+
+.detail-heading {
+  color: #212936;
+}
+
+.boton-4 {
+  width: 60%;
+  background-color: var(--bitButton);
+}
+.boton-ten{
+  width: 25%;
+  background-color: var(--bitButton);
+}
+
+.btn-warning:hover {
+  background-color: #212936;
+  padding: 10px 12px;
+  transform: scale(1.1);
+  transition: ease-in-out 0.23s;
+}
+
+.first-section {
+  background-color: rgb(24, 64, 102);
+}
+.circleimage{
+  background-color: transparent;
+  height: 70px;
+}
+
+.twin-section {
+  color: (var(--dark-blue--));
+}
+
+.footerlast {
+  background-color: rgb(24, 64, 102);
+}
+
+.icon-color {
+  color: rgb(1, 108, 154);
+}
+
+.botoneight {
+  background-color: var(--bitButton);
+}
+
+.botoneight:hover {
+  background-color: var(--bitButton);
+  padding: 10px 12px;
+  transform: scale(1.1);
+  transition: ease-in-out 0.23s;
+}
+
+.footer {
+  background-color: rgb(24, 64, 102);
+}
+
+.ulColor {
+  color: white;
+}
+
+.ullast li {
+  list-style: none;
+}
+
+.bg-black {
+  background-color: #000;
+  position: relative;
+  bottom: 60px;
+}
+
+.btnsubmit {
+  background-color: #0099a9;
+  width: 30%;
+}
+
+.lastfoot {
+  background-color: #969fae;
+}
+
+.manimage {
+  height: 51vh;
+  overflow: hidden;
+  position: relative;
+}
+
+.oction-image{
+  height: 100vh;
+}
+
+.quote-headone{
+  color:  var(--bitButton);
+}
+.quote-headtwo{
+  color: (var(--dark-blue--));
+}
+.quote-headthree{
+  color:  var(--bitButton);
+}
+.button-quote{
+  background-color:  var(--bitButton);
+}
+.btn-fill{
+  white-space: nowrap;
+  background-color:  var(--bitButton);
+}
+
+.backgroundcontact {
+  background-color: rgb(24, 64, 102);
+}
+
+.btn-fill {
+  background-color: var(--bitButton);
+  border: none;
+}
+
+.contact-headone {
+  color: var(---dark-blue--);
+  font-size: 65px;
+}
+
+.contact-headtwo {
+  color: var(--bitButton);
+  font-size: 65px;
+}
+
+.topspacing {
+  padding-top: 48px;
+}
+
+.zoom-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center top;
+  transform: scale(2.8);
+}
+
+.spinner:hover{
+  transform: rotate(180deg);
+}
+.btn-fill{
+  width: 20%;
+}
+
+@media(max-width:492px) {
+  .navbarlogo {
+    width: 50%;
+  }
+
+  .botonfive {
+    width: 100%;
+  }
+  .boton-4{
+    width: 100%;
+  }
+  .boton-ten{
+    width: 100%;
+  }
+  .btn-fill{
+    width: 50%;
+  }
+}
+
+@media(max-width:992px) {
+  .firstimage {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding-top: 5px;
+  }
+
+  .f-head-col {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+  }
+  .boton-4{
+    width: 100%;
+  }
+
+  .manimage {
+    height: 100vh;
+  }
+}
+
+@media(min-width:376px) and (max-width:768px) {
+  .topspacing {
+    padding-top: 0px;
+  }
+
+  .zoom-image {
+    height: 291px !important;
+  }
+}
